@@ -43,6 +43,7 @@ Student <- GlasgowFriends |> select(student, neighbourhood, schooldist, hoodname
 }
 </style>
 ```
+
 <!-- Define question style -->
 
 ```{=html}
@@ -52,6 +53,7 @@ Student <- GlasgowFriends |> select(student, neighbourhood, schooldist, hoodname
 }
 </style>
 ```
+
 <!-- Define emphasis style -->
 
 ```{=html}
@@ -61,25 +63,18 @@ Student <- GlasgowFriends |> select(student, neighbourhood, schooldist, hoodname
 }
 </style>
 ```
+
 ## Overview
 
--   R and AI
+-   Q&A
 -   Four principles of tidy data
 -   Principle 1: Each type of case must have its own tibble
 -   Principle 2: Each observation must have it's own row
 
-## R and AI
+## Q&A
 
--   AI can be a great coding help, ONCE you have a basic understanding
-    of R.
--   When you try to use AI before you understand the basics:
-    -   You will write low quality prompts. –\> Garbage in, Garbage out!
-    -   You are unlikely to understand and critically evaluate the
-        output.
--   Our recommendation: Learn on your own first. Use AI later to keep
-    developing. In the last session, we will talk about some options.
--   Remember: The exam will be closed book and without internet
-    connection.
+-   ADD DEPENDING ON WHAT'S ON THE CANVAS DISCUSSION BOARD BY 4 PM THE
+    PREVIOUS DAY
 
 ## Tidy Data: Eve`R`ything In One Place
 
@@ -148,6 +143,8 @@ yourself the question: What thing has this characteristic?
 str(GlasgowFriends)
 ?GlasgowFriends
 ```
+
+### 
 
 ### Primary key
 
@@ -741,16 +738,14 @@ gradethis::grade_code(
   )
 ```
 
-## What's next
+## Up Next
 
--   We are half way through Sprint 2. Keep working on your Sprint
-    Backlog.
+-   Catch up (review Session 2 content)
+-   Check-in with your Study Buddy
+-   Prepare (see Canvas Module Guide):
+    -   Complete the homework (homework room, study buddy, alone...)
 
--   Tips for your current or upcoming Sprint Backlog: With the skills
-    discussed today, you can:
+    -   Group Work: Start now with SCRUM(-light)
 
-    -   Check and begin tidying your complex data sets according to
-        principles 1 and 2.
-
-    -   Summarize the contents and relations between your data sets in
-        your Data Project Quarto file
+    -   Submit questions by 4 PM the day before each tutorial on the
+        Canvas Discussion Forum

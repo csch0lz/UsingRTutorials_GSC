@@ -35,6 +35,7 @@ Glasgow <- UsingRTutorials::Glasgow
 }
 </style>
 ```
+
 <!-- Define question style -->
 
 ```{=html}
@@ -44,6 +45,7 @@ Glasgow <- UsingRTutorials::Glasgow
 }
 </style>
 ```
+
 <!-- Define emphasis style -->
 
 ```{=html}
@@ -53,6 +55,7 @@ Glasgow <- UsingRTutorials::Glasgow
 }
 </style>
 ```
+
 ## Overview
 
 -   Q&A
@@ -61,9 +64,7 @@ Glasgow <- UsingRTutorials::Glasgow
 
 ## Q&A
 
--   Any questions about the organization of the course?
--   Any questions about last tutorial's topics?
--   Any new topics that must receive attention today?
+-   INTEGRATE ANY QUESTIONS SUBMITTED BEFORE 4 PM THE PREVIOUS DAY ON CANVAS DISCUSSION FORUM
 
 ## Data Wrangling with `dplyr::`
 
@@ -856,7 +857,6 @@ gradethis::grade_result(
 -   Never assume that data are complete. Formulate which regularities you expect in the data and use code to check them.
 :::
 
-
 ## Quarto Basics: Integrating text and data for reproducible research
 
 From this point on in this tutorial, you are supposed to work in RStudio.
@@ -1000,7 +1000,6 @@ Now, you are sure that the data will be read in the right way.
 -   In a code chunk, press Ctr/Cmd-Enter to run the command in which your cursor is positioned.
 :::
 
-
 #### Render to PDF
 
 Render an Quarto with the Render button.
@@ -1034,15 +1033,16 @@ format:
 
 YAML option `keep_tex: TRUE` saves the TeX file (extension `.tex`), which you can open in a TeX editor, for example [overleaf](https://www.overleaf.com/) or [Texmaker](https://www.xm1math.net/texmaker/).
 
-## That's it for today.
+## Up Next
 
--   Study course content
--   Meet your study buddy
--   Next steps group project:
-    -   Sprint 1: Review & Retrospective
-    -   Sprint 2: Planning
--   Some inspiration for planning:
-    -   You can already: organize your group work in a Quarto file and practice data wrangling skills
-    -   Plan in some time to start data tidying after Session 3.
-    -   Plan in some time for everybody to practice with ggplot() on the Data Project.
--   **Sprint 2 SCRUM masters: Keep your team on course!**
+-   Catch up (review Session 2 content)
+
+-   Check-in with your Study Buddy
+
+-   Prepare (see Canvas Module Guide):
+
+    -   Complete the homework (homework room, study buddy, alone...)
+
+    -   Group Work: Start now with SCRUM(-light)
+
+    -   Submit questions by 4 PM the day before each tutorial on the Canvas Discussion Forum

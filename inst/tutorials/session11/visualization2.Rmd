@@ -43,6 +43,7 @@ Glasgow <- UsingRTutorials::Glasgow
 }
 </style>
 ```
+
 <!-- Define question style -->
 
 ```{=html}
@@ -52,6 +53,7 @@ Glasgow <- UsingRTutorials::Glasgow
 }
 </style>
 ```
+
 <!-- Define emphasis style -->
 
 ```{=html}
@@ -61,6 +63,7 @@ Glasgow <- UsingRTutorials::Glasgow
 }
 </style>
 ```
+
 ## Overview
 
 -   Plotting statistical results
@@ -313,6 +316,7 @@ glbwarm <- UsingRTutorials::glbwarm
 }
 </style>
 ```
+
 <!-- Define question style -->
 
 ```{=html}
@@ -322,6 +326,7 @@ glbwarm <- UsingRTutorials::glbwarm
 }
 </style>
 ```
+
 <!-- Define emphasis style -->
 
 ```{=html}
@@ -331,6 +336,7 @@ glbwarm <- UsingRTutorials::glbwarm
 }
 </style>
 ```
+
 ## Polishing Your Graphics
 
 ### Labels and legend position
@@ -778,6 +784,7 @@ To get the literature references in APA style, we need a citation style file.
 Ensure that the references and citation style files are saved in the working directory!
 </style>
 ```
+
 ### Figure code chunk options
 
 Figures usually demand additional attention:
@@ -813,11 +820,9 @@ Note:
 
 ### Custom tables
 
-We have already explored tables when discussing the presentation of statistical results.
-Tables can also be useful for presenting other types of information and overviews
-in your reports.
+We have already explored tables when discussing the presentation of statistical results. Tables can also be useful for presenting other types of information and overviews in your reports.
 
-###
+### 
 
 **Using the Visual Editor**
 
@@ -929,7 +934,6 @@ Problems with rendering to PDF:
 -   Characters like `%`, `\`, `/` have special meaning in LaTeX, which is the language used to create the PDF.
 -   Ensure that variable names or captions do not include them.
 
-
 ## Fancy Stuff
 
 ### Dashboards
@@ -944,8 +948,13 @@ knitr::include_graphics("images/dashboard.png")
 
 Read more about dashboards at <https://quarto.org/docs/dashboards/> .
 
-## What's Next
+## Up Next
 
-- We are half-way through Sprint 6.
-- Take a moment to update your Sprint Backlog. What knowledge from today's session can you use to further improve your report?
-- For inspiration, carefully inspect your rendered Quarto document for the presence and layout of plots and tables and for unwanted code or R messages.
+-   On the to-do list:
+    -   Take a moment to update your Sprint Backlog. What knowledge from today's session can you use to further improve your report?
+    -   For inspiration, carefully inspect your rendered Quarto document for the presence and layout of plots and tables and for unwanted code or R messages.
+-   Catch up
+-   Check-in with your Study Buddy
+-   Prepare (see Canvas Module Guide):
+    -   Complete the homework (homework room, study buddy, alone...)
+    -   Submit questions by 4 PM the day before each tutorial on the Canvas Discussion Forum

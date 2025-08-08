@@ -44,6 +44,7 @@ GlasgowFriends <- UsingRTutorials::GlasgowFriends
 }
 </style>
 ```
+
 <!-- Define question style -->
 
 ```{=html}
@@ -53,6 +54,7 @@ GlasgowFriends <- UsingRTutorials::GlasgowFriends
 }
 </style>
 ```
+
 <!-- Define emphasis style -->
 
 ```{=html}
@@ -62,6 +64,7 @@ GlasgowFriends <- UsingRTutorials::GlasgowFriends
 }
 </style>
 ```
+
 ## Overview
 
 -   ggplot Essentials
@@ -607,7 +610,10 @@ ggplot(
 ### 
 
 ::: question
-Try to recreate the graph above as closely as you can using the `consumers` data. Hint: First create an aggregated dataframe `aggregate_consumers` with the mean brand awareness by gender and wom group.
+Try to recreate the graph above as closely as you can using the
+`consumers` data. Hint: First create an aggregated dataframe
+`aggregate_consumers` with the mean brand awareness by gender and wom
+group.
 :::
 
 ```{r barEx, exercise = TRUE}
@@ -617,8 +623,10 @@ Try to recreate the graph above as closely as you can using the `consumers` data
 <!-- To hide the solution, use a textual hint. -->
 
 ::: {#barEx-hint}
-**Hint:** Consider carefully which geom should make use of which dataframe (consumers vs. aggregate_consumers) and adjust the `data` and `mapping` arguments accordingly.
-Use the `alpha` argument to make the bars transparent. 
+**Hint:** Consider carefully which geom should make use of which
+dataframe (consumers vs. aggregate_consumers) and adjust the `data` and
+`mapping` arguments accordingly. Use the `alpha` argument to make the
+bars transparent.
 :::
 
 ```{r barEx-solution, exercise.reveal_solution = FALSE}
@@ -660,7 +668,9 @@ easily by Googling. However, we can also easily create them ourselves:
 -   Standard error of the mean = standard deviation / sqrt(N)
 
 ::: question
-Create the dataframe `aggregate_consumers_se` containing the mean brand awareness (called `mean_brand_aw`) grouped by gender and word of mouth together with its standard error (called `se_brand_aw`).
+Create the dataframe `aggregate_consumers_se` containing the mean brand
+awareness (called `mean_brand_aw`) grouped by gender and word of mouth
+together with its standard error (called `se_brand_aw`).
 :::
 
 ```{r aggCon, exercise = TRUE}
@@ -686,9 +696,10 @@ aggregate_consumers_se <- consumers |>
 gradethis::grade_code()
 ```
 
-###
+### 
 
-Now we can add error bars to our graph using `geom_errorbar()`. The final graph should look like this:
+Now we can add error bars to our graph using `geom_errorbar()`. The
+final graph should look like this:
 
 ```{r errorBar_prep, echo=FALSE}
 aggregate_consumers_se <- consumers |>
@@ -718,10 +729,11 @@ ggplot(
   geom_errorbar(aes(ymin = mean_brand_aw - 1.96 * se_brand_aw, ymax = mean_brand_aw + 1.96 * se_brand_aw), width = 0.9, position = "dodge")
 ```
 
-###
+### 
 
 ::: question
-Look up `help(geom_errorbar)` and try to add errorbars to the graph we created earlier.
+Look up `help(geom_errorbar)` and try to add errorbars to the graph we
+created earlier.
 :::
 
 ```{r errorBar, exercise = TRUE, exercise.setup = 'aggCon-solution'}
@@ -746,7 +758,10 @@ ggplot(
 <!-- To hide the solution, use a textual hint. -->
 
 ::: {#errorBar-hint}
-**Hint:** Make sure to use the `mapping` argument to specify `ymin` and `ymax` to ensure that the correct means and standard errors are used per group. Use `position='dodge'` to display the errorbars together with their group. 
+**Hint:** Make sure to use the `mapping` argument to specify `ymin` and
+`ymax` to ensure that the correct means and standard errors are used per
+group. Use `position='dodge'` to display the errorbars together with
+their group.
 :::
 
 ```{r errorBar-solution, exercise.reveal_solution = FALSE}
@@ -772,7 +787,7 @@ ggplot(
 gradethis::grade_code()
 ```
 
-## Evaluating a Plot
+## Reminder from Session 1: Evaluating a Plot
 
 Once you master the `ggplot2` package and other packages for creating
 plots (see the **Fancy stuff** part of this tutorial), you should start
@@ -1197,12 +1212,23 @@ flights |> # use the flights tibble in the nycflights13 package
   labs(y = "Latitude", x = "Longitude")
 ```
 
-## What's next
+## Up Next
 
--   We are in the middle of Sprint 4. Keep working on your Sprint
-    Backlog.
 -   Good luck with the group part deadline!
 -   You now have important information relevant to your individual Data
     Project.
 -   Prepare for next session's individual consultations by starting to
     work on your individual part. Come with questions!
+
+## And as always
+
+-   Catch up
+
+-   Check-in with your Study Buddy
+
+-   Prepare (see Canvas Module Guide):
+
+-   Complete the homework (homework room, study buddy, alone...)
+
+-   Submit questions by 4 PM the day before each tutorial on the Canvas
+    Discussion Forum

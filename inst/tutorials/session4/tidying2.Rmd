@@ -63,10 +63,15 @@ Student <- GlasgowFriends |> select(student, neighbourhood, schooldist, hoodname
 ```
 ## Overview
 
+-   Q&A
 -   Four principles of tidy data
 -   Principle 3: Each variable must have its own column.
 -   Principle 4: Each value must have its own cell.
 -   Connecting different types of data through Joins
+
+## Q&A
+
+ADD DEPENDING ON WHETHER THERE ARE QUESTIONSD
 
 ## Tidy Data: Eve`R`ything In One Place
 
@@ -805,23 +810,6 @@ digraph database {
 }
 ")
 ```
-
-## Data Project
-
-We are completing Sprint 2. Remember to do the Sprint 2 Retrospective
-and Review and Plan Sprint 3.
-
-Tips for your upcoming Sprint Backlog: With the skills discussed today,
-you can:
-
--   Check and tidy your complex data sets according to principles 3-4.
--   Check which of your complex data sets can be linked. Some of them
-    might have to be transformed before they can be joined.
--   Use `dplyr::` and `tidyr::` to link data.
--   Summarize the contents and relations between your data sets in your
-    Data Project Quarto file.
--   Plan in some time for everybody to practice with `ggplot()` on the
-    Data Project.
 
 ## Next Session: Review + Q&A
 

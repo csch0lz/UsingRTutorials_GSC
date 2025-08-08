@@ -52,6 +52,7 @@ report_ttest <- function(result_t) {
 }
 </style>
 ```
+
 <!-- Define question style -->
 
 ```{=html}
@@ -61,6 +62,7 @@ report_ttest <- function(result_t) {
 }
 </style>
 ```
+
 <!-- Define emphasis style -->
 
 ```{=html}
@@ -486,15 +488,21 @@ In the `report_ttest()` function, we deal with single values instead of vectors:
 
 ## Edit Your Code
 
-:::question
+::: question
 Spend some time reviewing your own code for the individual project and group project:
 
-- Is the code readable, modular, correct, and reproducible? Does it produce readable output?
-- Are there any functions you could create to make your code more efficient?
-- Are there any conditions you could add to your code to make it more robust?
+-   Is the code readable, modular, correct, and reproducible? Does it produce readable output?
+-   Are there any functions you could create to make your code more efficient?
+-   Are there any conditions you could add to your code to make it more robust?
 :::
 
-## What's Next
+## Up Next
 
--   Good luck with the individual deadline tomorrow. Make sure to review your code. Is it correct, concise, and well commented?
--   Prepare for the exam and submit questions.
+-   On the to do list:
+    -   Good luck with the individual deadline tomorrow. Make sure to review your code. Is it correct, concise, and well commented?
+    -   Prepare for the exam and submit questions.
+-   Catch up
+-   Check-in with your Study Buddy
+-   Prepare (see Canvas Module Guide):
+    -   Complete the homework (homework room, study buddy, alone...)
+    -   Submit questions by 4 PM the day before each tutorial on the Canvas Discussion Forum

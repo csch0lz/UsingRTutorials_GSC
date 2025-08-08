@@ -37,6 +37,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 }
 </style>
 ```
+
 <!-- Define question style -->
 
 ```{=html}
@@ -46,6 +47,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 }
 </style>
 ```
+
 <!-- Define emphasis style -->
 
 ```{=html}
@@ -55,6 +57,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 }
 </style>
 ```
+
 ## Overview
 
 -   Meet the Experts
@@ -118,11 +121,14 @@ Data Project. We will have X minutes per group.
 | 2     | GROUP NAME 2 |
 | 3     | GROUP NAME 3 |
 
-## Data Project: What's next
+## Up Next
 
-We are in the middle of Sprint 3.
+-   Catch up
+-   Check-in with your Study Buddy
+-   Prepare (see Canvas Module Guide):
+    -   Complete the homework (homework room, study buddy, alone...)
 
--   Take a moment to update your product and sprint backlogs if needed
-    based on the feedback you got today.
+    -   Group Work: Start now with SCRUM(-light)
 
--   Keep working on your current sprint backlog.
+    -   Submit questions by 4 PM the day before each tutorial on the
+        Canvas Discussion Forum

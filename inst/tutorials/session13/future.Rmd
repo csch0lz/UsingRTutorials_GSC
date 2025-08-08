@@ -38,6 +38,7 @@ glbwarm_spss <- UsingRTutorials::glbwarm_spss
 }
 </style>
 ```
+
 <!-- Define question style -->
 
 ```{=html}
@@ -47,6 +48,7 @@ glbwarm_spss <- UsingRTutorials::glbwarm_spss
 }
 </style>
 ```
+
 <!-- Define emphasis style -->
 
 ```{=html}
@@ -56,6 +58,7 @@ glbwarm_spss <- UsingRTutorials::glbwarm_spss
 }
 </style>
 ```
+
 ## Overview
 
 -   Commit to switching
@@ -166,11 +169,17 @@ If someone asks you: "Do you know R?", you can now proudly and
 confidently say: "Yes, some of it."
 :::
 
--   The R universe is incredibly large and versatile. Whatever
-    data-related task you can come up with - there is likely going to be
-    an R-based solution to your issues.
+-   The R universe is large and versatile. Whatever data-related task
+    you can come up with - there is likely going to be an R-based
+    solution to your issues.
 
 -   New projects will likely require you to learn new things in R.
+
+-   Your collaborators are not R users? You can still use R to produce
+    reproducible reports of your work for them that can be commented on
+    and edited in a familiar program like Word. For curious
+    collaborators, share resources (e.g., "[Help, my collaborator is
+    using R](https://wdenooy.github.io/Switch2R/index.html)").
 
 -   Luckily there are lots of resources to help you develop yourself as
     an R programmer.
@@ -193,9 +202,6 @@ confidently say: "Yes, some of it."
 
 -   Read replies for issues similar to yours or ask your own questions
     (remember to stick to the required format!)
-
--   Once you feel confident: Be an active part of the community.
-    Contribute your own answers!
 
 ### AI
 
@@ -220,10 +226,9 @@ Always double-check and test any results!
 
 ![Source: copilot.github.com](images/github_copilot.png){width="171"}
 
--   Github Co-Pilot is a new AI tool that can generate code based on
+-   Github Co-Pilot is an AI tool that can generate code based on
     prompts in form of comments directly inside RStudio.
 -   It's free for UvA students.
--   Using Co-Pilot is NOT a requirement for this class.
 
 #### How to Install GitHub Co-Pilot (!!OPTIONAL!!)
 
@@ -303,8 +308,8 @@ to the graph.
 ## Collaborate
 
 There are various tools available to help you organize collaborations in
-R (e.g. when multiple have to work on the same script or Quarto file).
-One approach is using GitHub.
+R (e.g. when multiple people have to work on the same script or Quarto
+file). One approach is using GitHub.
 
 -   Easy synchronization across all collaborators.
 
