@@ -87,7 +87,7 @@ consumers <- UsingRTutorials::consumers #
   <!-- Right column: descriptions -->
   <div style="flex: 1;">
     <br><br><br>
-    <p><strong>Dr. Christin Scholz</strong> (c.scholz@uva.nl) <br> Assistant Professor Persuasive Communication, www.cobras-lab.com </p>
+    <p><strong>Dr. Christin Scholz</strong> (c.scholz@uva.nl) <br> Assistant Professor Persuasive Communication</p>
     <br><br><br><br><br><br><br><br>
     <p><strong>Dr. Xin Gao</strong> (x.gao2@uva.nl) <br> Lecturer Research Methods</p>
   </div>
@@ -105,7 +105,7 @@ consumers <- UsingRTutorials::consumers #
 
 Tell us about yourself:
 
-1.  What are your expectations and hopes for this course?
+1.  What's your name?
 
 2.  What is one fun fact about yourself?
 
@@ -151,8 +151,8 @@ only way to get over it is to keep trying." (Wickham et al., 2023)
   <div style="flex: 1;">
     <br>
     <p>AI tools are making coding (and life) easier and more convenient by the
-minute, but to use it effectively, you need a basic proficiency in R.
-Without basic knowledge, you cannot fluently write and interpret AI-generated R code, or formulate effective AI prompts.</p>
+minute, but to use them effectively, you need a basic proficiency in R.
+Without basic knowledge, you cannot write good prompts and interpret AI-generated R code. In other words, AI-assisted coding is an advanced skill.</p>
   </div>
 
 </div>
@@ -241,9 +241,9 @@ data.frame(Week = c(1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7),
 
 **Deadlines:**
 
--   Data Project - Group part: November 19th, 2025, 5 PM
+-   Data Project - Group part: November 19th, 2025, 6 PM
 
--   Data Project - Individual part: December 4th, 2025, 5 PM
+-   Data Project - Individual part: December 5th, 2025, 6 PM
 
 -   Exam: December 12th, 2025
 
@@ -251,16 +251,18 @@ data.frame(Week = c(1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7),
 
 Final grade:
 
-1.  Data Project: reproducible report with one data visualization per
-    team member (40%).
-2.  On-Campus Exam (60%)
+1.  Data Project - Group Task: reproducible report on tidying a comples
+    dataset
+2.  Data Project - Individual Task: reproducible report on one data
+    visualization based on the tidied, complex dataset (20%).
+3.  On-Campus Exam (50%)
 
 ### Exam
 
 The exam consists of a series of coding exercises similar to those in *R
 for Data Science*. The exam will be held on campus and fully relies on
 your knowledge of R, meaning that you are not allowed to use the book
-and will not have access to the internet.
+and will not have access to the internet. For details, see Syllabus.
 
 ### Data Project: Tell a visual story
 
@@ -361,7 +363,7 @@ SCRUM is a framework for managing teamwork in a **systematic** and
 What is SCRUM(-Light)?
 
 -   1-week *"Sprints"*.
--   **Sprint**: Set goals, complete tasks, evaluate.
+-   **Sprint**: Plan, complete tasks, evaluate.
 -   *SCRUM master*: Oversees and facilitates the *Sprint*.
 -   Planning support on Canvas.
 
@@ -371,6 +373,18 @@ Why SCRUM(-Light)?
 -   Projects tend to be completed last minute and dominated by some
     students.
 -   SCRUM is used by professional teams worldwide.
+
+Process
+
+-   See Syllabus for Group Work Guide and What-to-do-when list.
+
+-   Complete short surveys to plan evaluate the previous sprint and plan
+    the upcoming one on Mondays (by 6 PM).
+
+Evaluation
+
+-   Group Collaboration Quality criterion (complete/incomplete for 8
+    planning/evaluation surveys)
 
 ### Teaming Up for the Data Project
 
@@ -1182,6 +1196,7 @@ Book on ggplot2:
 -   Contact your Study Buddy
 -   Prepare (see Canvas Module Guide):
     -   Complete the homework (homework room, study buddy, alone...)
-    -   Group Work: Start now with SCRUM(-light)
+    -   Group Work: Plan Sprint 1 by 6 PM tomorrow (Check the Group Work
+        Guide on Canvas)
     -   Submit questions by 4 PM the day before each tutorial on the
         Canvas Discussion Forum
