@@ -252,7 +252,7 @@ data.frame(Week = c(1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7),
 Final grade:
 
 1.  Data Project - Group Task: reproducible report on tidying a comples
-    dataset
+    dataset (30%)
 2.  Data Project - Individual Task: reproducible report on one data
     visualization based on the tidied, complex dataset (20%).
 3.  On-Campus Exam (50%)
@@ -272,7 +272,7 @@ and graded separately according to the rubric available on Canvas.
 
 Exploratory analysis of a complex data set: Showcase your R skills.
 
--   Groups of 3 or 4 students.
+-   Groups of 4 or 5 students.
 -   Group effort: Tidying the dataset.
 -   Individual effort: Print-ready presentation of one data
     visualization per student based on the tidy data.
@@ -401,7 +401,7 @@ page contains the data and data descriptions.
 Who will work on which complex dataset (and with whom)?
 
 ::: emphasis
-Submit a list of (\~5) team members, a team name, and your choice of
+Submit a list of (\~4-5) team members, a team name, and your choice of
 dataset on the Canvas discussion board.
 :::
 
@@ -435,7 +435,7 @@ In addition, install this tutorial:
     -   This should also install the `learnr` package.
     -   Be patient! Wait for the message `DONE (gradethis)`.
 -   Install the tutorials:
-    `remotes::install_github("csch0lz/UsingRTutorials_GSC")`
+    `remotes::install_github("csch0lz/UsingRTutorials_GSC",ref="2025/26")`
     -   Answer `no` to question
         `Do you want to install from sources the package which needs compilation?`.
     -   Wait for the message `DONE (UsingRTutorials)`.
