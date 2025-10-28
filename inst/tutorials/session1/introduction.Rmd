@@ -928,7 +928,7 @@ gradethis::grade_code()
 
 ::: emphasis
 There are more advanced details we can improve about this graph. We'll
-get back to it in Session 1: Visualization 1.
+get back to it in Session 7: Visualization 1.
 :::
 
 ### It's Your Turn
