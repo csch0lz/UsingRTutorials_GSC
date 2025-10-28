@@ -111,7 +111,21 @@ Tell us about yourself:
 
 ### Experience Levels
 
-ADD IN SURVEY RESULTS
+```{r out.width="100%"}
+knitr::include_graphics("images/experience.png")
+```
+
+### How are you feeling?
+
+```{r out.width="100%"}
+knitr::include_graphics("images/feelings.png")
+```
+
+### Hours
+
+```{r out.width="100%"}
+knitr::include_graphics("images/hours.png")
+```
 
 ### What to Expect
 
