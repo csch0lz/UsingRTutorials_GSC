@@ -338,7 +338,7 @@ Glasgow  |>
   mutate(friends_class = case_when(
     friendships == 0 ~ "No friends", 
     friendships < 5 ~ "1 - 4 friends", 
-    TRUE ~ "6+ friends"))
+    TRUE ~ "5+ friends"))
 # The condition is left to the tilde, the new value to the right.
 # Note the importance of the steps: persons without friends 
 # are excluded from the group with less than 5 friends.
