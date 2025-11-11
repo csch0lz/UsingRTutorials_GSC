@@ -117,9 +117,13 @@ Data Project. We will have X minutes per group.
 
 | Order | Group        |
 |-------|--------------|
-| 1     | GROUP NAME 1 |
-| 2     | GROUP NAME 2 |
-| 3     | GROUP NAME 3 |
+| 12-12:10     | Xin: Alcohol_A |
+| 12-12:10     | Christin: EU_A |
+| 12:10-12:20     | Xin: Alcohol_B |
+| 12:10-12:20     | Christin: EU_B |
+| 12:20-12:30     | Xin: Friends |
+| 12:20-12:45   | Christin: Free for additional questions |
+| 12:30-12:45   | Xin: Free for additional questions |
 
 ## Up Next
 
