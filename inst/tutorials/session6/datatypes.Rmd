@@ -1218,7 +1218,7 @@ Well, what's the difference between the two topics? Note that the results may ch
 
 ## Up Next
 
--   You now know everything you might need to complete the group part of the data project (Deadline: November 21st).
+-   You now know everything you might need to complete the group part of the data project (Check the Deadline on Canvas).
 -   If you enjoy the structure of SCRUM(-light) keep it goingt o stay on track and keep the community alive by checking in with each other for your individual assignment and exam prep.
 -   Heads-up: After Session 7 (at the latest), you should start to seriously think about your individual project in parallel to finishing the group part by the deadline. Plan in time to prepare for individual consultations in Session 8.
 
