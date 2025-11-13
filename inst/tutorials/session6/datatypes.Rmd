@@ -123,7 +123,7 @@ In addition, note the negligible number of observations for media, etc.
 Below are the results of a regression model predicting the number of votes for a post from the post category.
 
 ```{r regression, exercise = TRUE, exercise.eval = TRUE}
-# Linear regression: more in Session 6.
+# Linear regression: more in Session 10.
 lm(votes ~ category, data = Brexit) |>
   broom::tidy() |> #retrieving the main results
   kable(digits = c(0,2,2,2,3),
@@ -1040,7 +1040,7 @@ str(surveyweek1)
 
 ### Tidyverse alternative
 
-Because the variable names are so well structured in this particular example, we can achieve the same with the tidyverse `separate()` function.
+Because the variable names are so well structured in this particular example, we can achieve the same with the tidyverse `separate_wider_delim()` function.
 
 ::: question
 Inspect the results of each step in the pipe with `View()`. Note that the View window may be hidden behind another screen.
@@ -1050,7 +1050,7 @@ Inspect the results of each step in the pipe with `View()`. Note that the View w
 #tidyverse requires a data frame
 varnames <- tibble(name = names(surveyweek1)[4:10]) |>
   #split each name into three parts
-  separate_wider_delim( name , delim = " - ", names = c("humbug", "date", "topic")) |>
+  separate_wider_delim( name , delim = " - ", names = c("question", "date", "topic")) |>
   #split the date into weekday and date
   separate_wider_delim( date, delim = ", ", names = c("weekday", "date")) |>  
   #extract the date variable as a vector
