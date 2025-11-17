@@ -1214,7 +1214,7 @@ flights |> # use the flights tibble in the nycflights13 package
 
 ## Up Next
 
--   Good luck with the group part deadline!
+-   Good luck with the Group Task deadline! Don't forget the survey.
 -   You now have important information relevant to your individual Data
     Project.
 -   Prepare for next session's individual consultations by starting to
