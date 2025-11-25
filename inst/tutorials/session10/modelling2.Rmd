@@ -157,8 +157,8 @@ using
 ### 
 
 This works well for this particular t-test, but it isn't very flexible.
-What if the p-value of a test is \< .001? We should report it as "p \<
-.001". Below is a more flexible version of our code that implements
+What if the p-value of a test is \< .01? We should report it as "p \<
+.01". Below is a more flexible version of our code that implements
 this.
 
 ::: question
@@ -174,11 +174,13 @@ paste0("*t* (",
   format(round(result_t$parameter, digits = 2), nsmall = 2), ") = ",
   format(round(result_t$statistic, digits = 2), nsmall = 2), 
   ", *p* ", 
-  ifelse(result_t$p.value < 0.0005, 
-         paste0("= ", format(round(result_t$p.value, digits = 3), nsmall = 2)),
-         "< 0.001"),
+  ifelse(result_t$p.value < 0.001, "< 0.001", 
+  ifelse(result_t$p.value < 0.01, "<.01",
+         paste0("= ", format(round(result_t$p.value, digits = 3), nsmall = 2))
+         )),
   ", 95%CI[", format(round(result_t$conf.int[1], digits = 2), nsmall = 2),
   ", ", format(round(result_t$conf.int[2], digits = 2), nsmall = 2), "]")
+
 ```
 
 <!-- To hide the solution, use a textual hint. -->
@@ -451,7 +453,7 @@ model_1a |>
       ", ", format( round(conf.high, digits = 2), nsmall = 2 ), "]" )
     ) |> 
   select(term, estimate, sig, CI) |> #p.value dropped
-  kable(digits = c(0, 2, 0, 0),
+  kable(
     col.names = c("Parameter", "B", "", "95% CI"),
     align = "lrlc",
     caption = "Table 1. Predicting opinions about global warming.",
