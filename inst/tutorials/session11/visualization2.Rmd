@@ -951,10 +951,10 @@ Read more about dashboards at <https://quarto.org/docs/dashboards/> .
 ## Up Next
 
 -   On the to-do list:
-    -   Take a moment to update your Sprint Backlog. What knowledge from today's session can you use to further improve your report?
+    -   Take a moment to to consider what knowledge from today's session you can use to further improve your individual assignment
     -   For inspiration, carefully inspect your rendered Quarto document for the presence and layout of plots and tables and for unwanted code or R messages.
 -   Catch up
 -   Check-in with your Study Buddy
 -   Prepare (see Canvas Module Guide):
-    -   Complete the homework (homework room, study buddy, alone...)
-    -   Submit questions by 4 PM the day before each tutorial on the Canvas Discussion Forum
+    -   Complete the Problem Set 3 and Practice exam
+    -   Submit questions for the Q&A sessions
